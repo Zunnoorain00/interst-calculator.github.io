@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Interest Calculator</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Simple Interest Calculator</h1>
+        <div class="maindiv">
+            
+            <div class="center">
+                Amount <input type="number" id="principal"> <br> <br>
+                Interest Rate <input type="range" max="20" min="1" step="0.25" value="10.25" id="rate"
+                    onclick="setTimeout(myFunction, 100)"> <span id="range-value" class="range-value">10.25</span> <br> <br>
+                No. of Years <select name="" id="years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select> <br> <br>
+                <p id="result"></p>
+
+                <button onclick="compute()">Compute Interest</button>
+                <span id="result"></span>
+            </div>
+
+            <footer>
+                <p> &#169 Everyone Can Get Rich</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<script>
+    
+</script>
+
+</html>
